@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/recipesFragment">
+    <fragment
+        android:id="@+id/recipesFragment"
+        android:name="com.example.recipesapp.fragments.RecipesFragment"
+        android:label="RecipesFragment" >
+        <action
+            android:id="@+id/action_recipesFragment_to_recipeDetailsFragment"
+            app:destination="@id/recipeDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/favoritesFragment"
+        android:name="com.example.recipesapp.fragments.FavoritesFragment"
+        android:label="FavoritesFragment" >
+        <action
+            android:id="@+id/action_favoritesFragment_to_recipeDetailsFragment"
+            app:destination="@id/recipeDetailsFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/menuFragment"
+        android:name="com.example.recipesapp.fragments.MenuFragment"
+        android:label="MenuFragment" />
+    <fragment
+        android:id="@+id/costsFragment"
+        android:name="com.example.recipesapp.fragments.CostsFragment"
+        android:label="CostsFragment" />
+    <fragment
+        android:id="@+id/recipeDetailsFragment"
+        android:name="com.example.recipesapp.fragments.RecipeDetailsFragment"
+        android:label="RecipeDetailsFragment">
+        <argument
+            android:name="image"
+            app:argType="string"
+            />
+        <argument
+            android:name="ingredients"
+            app:argType="string[]" />
+        <argument
+            android:name="instructions"
+            app:argType="string[]" />
+    </fragment>
+    <fragment
+        android:id="@+id/fridgeFragment"
+        android:name="com.example.recipesapp.fragments.FridgeFragment"
+        android:label="FridgeFragment" />
+</navigation>

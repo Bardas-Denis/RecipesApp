@@ -1,0 +1,138 @@
+<resources>
+    <string name="app_name">RecipesApp</string>
+    <string name="error_required">This field must have a value</string>
+    <string name="error_pass_do_not_match">Passwords don\'t match</string>
+
+    <string name="estimated_price">Estimated price: %1$s$</string>
+    <string name="estimated_time">Estimated time: %1$s minutes</string>
+    <string name="total_cost">Total cost: %1$s lei</string>
+
+    <string-array name="sort_options">
+        <item>Not sorted</item>
+        <item>Time - ascending</item>
+        <item>Time - descending</item>
+        <item>Price - ascending</item>
+        <item>Price - descending</item>
+    </string-array>
+
+    <string-array name="filter_types">
+        <item>No filter</item>
+        <item>Time</item>
+        <item>Price</item>
+        <item>Origin</item>
+        <item>Diet</item>
+        <item>Allergens</item>
+        <item>Difficulty</item>
+        <item>Type</item>
+        <item>Suggest based on ingredients in fridge</item>
+    </string-array>
+
+    <string-array name="filters_time">
+        <item>All</item>
+        <item>Less than 15 min</item>
+        <item>Less than 30 min</item>
+        <item>Less than 45 min</item>
+        <item>Less than 1 h</item>
+        <item>Less than 1.5 h</item>
+        <item>Less than 2.5 h</item>
+    </string-array>
+
+    <string-array name="filters_price">
+        <item>All</item>
+        <item>Less than 5$</item>
+        <item>Less than 15$</item>
+        <item>Less than 25$</item>
+        <item>Less than 40$</item>
+        <item>Less than 60$</item>
+        <item>Less than 100$</item>
+    </string-array>
+
+    <string-array name="filters_origin">
+        <item>All</item>
+        <item>Mediterranean</item>
+        <item>Arabic</item>
+        <item>Chinese</item>
+        <item>Japanese</item>
+    </string-array>
+
+    <string-array name="filters_diet">
+        <item>All</item>
+        <item>Vegetarian</item>
+        <item>Vegan</item>
+    </string-array>
+
+    <string-array name="filters_allergens">
+        <item>All</item>
+        <item>Milk</item>
+        <item>Eggs</item>
+        <item>Fish</item>
+        <item>Nuts</item>
+        <item>Peanuts</item>
+        <item>Gluten</item>
+        <item>Crustaceans</item>
+        <item>Mustard</item>
+        <item>Soybeans</item>
+    </string-array>
+
+    <string-array name="filters_difficulty">
+        <item>All</item>
+        <item>Low</item>
+        <item>Medium</item>
+        <item>High</item>
+    </string-array>
+
+    <string-array name="filters_type">
+        <item>All</item>
+        <item>Savoury</item>
+        <item>Dessert</item>
+    </string-array>
+
+    <string-array name="filters_fridge">
+        <item>At least 3 ingredients</item>
+        <item>At least 5 ingredients</item>
+        <item>At least 7 ingredients</item>
+    </string-array>
+
+    <string name="enter_email_address">Enter email address</string>
+    <string name="login">Login</string>
+    <string name="enter_your_password">Enter your password</string>
+    <string name="don_t_have_an_account">Don\'t have an account?</string>
+    <string name="sign_up">Sign up</string>
+    <string name="register">Register</string>
+    <string name="enter_ingredient">Enter ingredient</string>
+    <string name="enter_price">Enter price</string>
+    <string name="add">Add</string>
+    <string name="monday">Monday</string>
+    <string name="recipe_for_monday">Recipe for Monday</string>
+    <string name="tuesday">Tuesday</string>
+    <string name="recipe_for_tuesday">Recipe for Tuesday</string>
+    <string name="wednesday">Wednesday</string>
+    <string name="recipe_for_wednesday">Recipe for Wednesday</string>
+    <string name="thursday">Thursday</string>
+    <string name="recipe_for_thursday">Recipe for Thursday</string>
+    <string name="friday">Friday</string>
+    <string name="recipe_for_friday">Recipe for Friday</string>
+    <string name="saturday">Saturday</string>
+    <string name="recipe_for_saturday">Recipe for Saturday</string>
+    <string name="sunday">Sunday</string>
+    <string name="recipe_for_sunday">Recipe for Sunday</string>
+    <string name="save_changes">Save changes</string>
+    <string name="ingredients">Ingredients:</string>
+    <string name="instructions">Instructions:</string>
+    <string name="search_for_a_recipe">Search for a recipe</string>
+    <string name="delete">Delete</string>
+    <string name="price">Price</string>
+    <string name="ingredient">Ingredient</string>
+    <string name="estimated_time_layout">Estimated time:</string>
+    <string name="estimated_price_layout">Estimated price:</string>
+    <string name="recipe_description">Recipe description:</string>
+    <string name="home">home</string>
+    <string name="favorites">favorites</string>
+    <string name="menu">menu</string>
+    <string name="costs">costs</string>
+    <string name="fridge">fridge</string>
+    <string name="theme">Theme</string>
+    <string name="light_mode">Light mode</string>
+    <string name="dark_mode">Dark mode</string>
+    <string name="log_out">Log out</string>
+</resources>

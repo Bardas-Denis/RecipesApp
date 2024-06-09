@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/recipesFragment"
+        android:icon="@drawable/baseline_home_24"
+        android:title="@string/home" />
+    <item
+        android:id="@+id/favoritesFragment"
+        android:icon="@drawable/baseline_favorite_24"
+        android:title="@string/favorites" />
+    <item
+        android:id="@+id/menuFragment"
+        android:icon="@drawable/baseline_menu_book_24"
+        android:title="@string/menu" />
+    <item
+        android:id="@+id/costsFragment"
+        android:icon="@drawable/baseline_attach_money_24"
+        android:title="@string/costs" />
+    <item
+        android:id="@+id/fridgeFragment"
+        android:icon="@drawable/baseline_attach_money_24"
+        android:title="@string/fridge"/>
+</menu>
